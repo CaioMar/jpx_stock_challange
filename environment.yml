@@ -1,0 +1,24 @@
+name: stocks
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - ipython=7.29
+  - pip=20.0
+  - ipykernel=6.7
+  - joblib=0.17
+  - pandas
+  - scikit-learn
+  - numpy
+  - scipy
+  - statsmodels
+  - seaborn
+  - matplotlib
+  - plotly
+  - xgboost
+  - hyperopt
+  - shap
+  - tensorflow
+  - kaggle
