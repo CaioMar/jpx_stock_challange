@@ -72,7 +72,9 @@ def get_stock_data(
 ) -> pd.DataFrame:
 
     date_index = get_date_index(
-        stock_price_dataframe=stock_price_dataframe,
+        stock_price_dataframe=stock_price_dataframe.query(
+            f"{code_column_name}=={security_code}"
+        ),
         date_column_name=date_column_name,
     )
 
